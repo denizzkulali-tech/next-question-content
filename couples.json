@@ -1,19 +1,851 @@
 {
   "context": "couples",
-  "version": 1,
+  "version": 2,
   "categories": [
-    { "key": "oknok",      "label": "OK mu, NOK mu?",                           "meta": "Sınırları tek tek konuş",                                  "emoji": "✅", "color": "#2C7A66", "order": 1,  "exclusive": true },
-    { "key": "aldatma",     "label": "Aldatmak mı, Değil mi?",                  "meta": "Gri alanları tartış",                                      "emoji": "🚩", "color": "#B3242C", "order": 2,  "exclusive": true },
-    { "key": "prenses",     "label": "Prenses Muamelesi mi, Olması Gereken mi?", "meta": "Beklenti mi, şımartma mı",                                 "emoji": "👑", "color": "#8A5F12", "order": 3,  "exclusive": true },
-    { "key": "gecmis",      "label": "Geçmişimiz",                              "meta": "Birlikte geride kalanlar",                                 "emoji": "📼", "color": "#8A6A3C", "order": 4,  "exclusive": false },
-    { "key": "ileride",     "label": "İleride Biz",                             "meta": "Planlar ve beklentiler",                                   "emoji": "🔭", "color": "#2F5FA8", "order": 5,  "exclusive": false },
-    { "key": "asksal",      "label": "Aşksal",                                 "meta": "Lovebombing soruları",                                     "emoji": "💞", "color": "#C43A6E", "order": 6,  "exclusive": false },
-    { "key": "cesur",       "label": "Cesur Sorular",                          "meta": "Yüksek risk, yüksek kazanç 😌",                             "emoji": "🎲", "color": "#7A4AA8", "order": 7,  "exclusive": false },
-    { "key": "tanima",      "label": "Beni Ne Kadar Tanıyorsun?",              "meta": "Küçük detaylarda sınav",                                   "emoji": "🧩", "color": "#2A5F9E", "order": 8,  "exclusive": false },
-    { "key": "puanlaErkek", "label": "Erkek Arkadaşını Puanla",                "meta": "On üzerinden dürüst not",                                  "emoji": "🎯", "color": "#9A4E14", "order": 9,  "exclusive": false },
-    { "key": "puanlaKiz",   "label": "Kız Arkadaşını Puanla",                  "meta": "On üzerinden dürüst not",                                  "emoji": "🎯", "color": "#A8446A", "order": 10, "exclusive": false },
-    { "key": "senaryo",     "label": "Senaryolar",                            "meta": "3.kişiler,  zorlayıcı senaryolar sen napardın? soruları.", "emoji": "🎬", "color": "#4A6ACF", "order": 11, "exclusive": false },
-    { "key": "yaratici",    "label": "Yaratıcı Sorular",                       "meta": "Beklenmedik açılar",                                       "emoji": "🌀", "color": "#0F7A72", "order": 12, "exclusive": false }
+    {
+      "key": "oknok",
+      "label": "OK mu, NOK mu?",
+      "meta": "Sınırları tek tek konuş",
+      "emoji": "✅",
+      "color": "#2C7A66",
+      "order": 1,
+      "exclusive": true
+    },
+    {
+      "key": "aldatma",
+      "label": "Aldatmak mı, Değil mi?",
+      "meta": "Gri alanları tartış",
+      "emoji": "🚩",
+      "color": "#B3242C",
+      "order": 2,
+      "exclusive": true
+    },
+    {
+      "key": "prenses",
+      "label": "Prenses Muamelesi mi, Olması Gereken mi?",
+      "meta": "Beklenti mi, şımartma mı",
+      "emoji": "👑",
+      "color": "#8A5F12",
+      "order": 3,
+      "exclusive": true
+    },
+    {
+      "key": "gecmis",
+      "label": "Geçmişimiz",
+      "meta": "Birlikte geride kalanlar",
+      "emoji": "📼",
+      "color": "#8A6A3C",
+      "order": 4,
+      "exclusive": false
+    },
+    {
+      "key": "ileride",
+      "label": "İleride Biz",
+      "meta": "Planlar ve beklentiler",
+      "emoji": "🔭",
+      "color": "#2F5FA8",
+      "order": 5,
+      "exclusive": false
+    },
+    {
+      "key": "asksal",
+      "label": "Aşksal",
+      "meta": "Lovebombing soruları",
+      "emoji": "💞",
+      "color": "#C43A6E",
+      "order": 6,
+      "exclusive": false
+    },
+    {
+      "key": "cesur",
+      "label": "Cesur Sorular",
+      "meta": "Yüksek risk, yüksek kazanç 😌",
+      "emoji": "🎲",
+      "color": "#7A4AA8",
+      "order": 7,
+      "exclusive": false
+    },
+    {
+      "key": "tanima",
+      "label": "Beni Ne Kadar Tanıyorsun?",
+      "meta": "Küçük detaylarda sınav",
+      "emoji": "🧩",
+      "color": "#2A5F9E",
+      "order": 8,
+      "exclusive": false
+    },
+    {
+      "key": "puanlaErkek",
+      "label": "Erkek Arkadaşını Puanla",
+      "meta": "On üzerinden dürüst not",
+      "emoji": "🎯",
+      "color": "#9A4E14",
+      "order": 9,
+      "exclusive": false
+    },
+    {
+      "key": "puanlaKiz",
+      "label": "Kız Arkadaşını Puanla",
+      "meta": "On üzerinden dürüst not",
+      "emoji": "🎯",
+      "color": "#A8446A",
+      "order": 10,
+      "exclusive": false
+    },
+    {
+      "key": "senaryo",
+      "label": "Senaryolar",
+      "meta": "3.kişiler,  zorlayıcı senaryolar sen napardın? soruları.",
+      "emoji": "🎬",
+      "color": "#4A6ACF",
+      "order": 11,
+      "exclusive": false
+    },
+    {
+      "key": "yaratici",
+      "label": "Yaratıcı Sorular",
+      "meta": "Beklenmedik açılar",
+      "emoji": "🌀",
+      "color": "#0F7A72",
+      "order": 12,
+      "exclusive": false
+    }
   ],
-  "questions": []
+  "questions": [
+    {
+      "id": "72a26be8-715d-4f4e-80d7-cd9a7342365e",
+      "contentID": "72a26be8-715d-4f4e-80d7-cd9a7342365e",
+      "revision": 1,
+      "text": "Partnerinin hoşlanmadığı biriyle iletişimi sürdürmek: OK mu, NOK mu?",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "oknok"
+      ],
+      "dna": {
+        "emotion": 0.4,
+        "depth": 0.5,
+        "time": 0.2,
+        "seriousness": 0.7,
+        "intimacy": 0.35,
+        "tension": 0.78,
+        "situational": 0.8,
+        "externalFocus": 0.8
+      }
+    },
+    {
+      "id": "e998ad8c-b93f-4210-beea-1c24e1a070a7",
+      "contentID": "e998ad8c-b93f-4210-beea-1c24e1a070a7",
+      "revision": 1,
+      "text": "Ex ile arkadaş kalmak: OK mu, NOK mu?",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "oknok"
+      ],
+      "dna": {
+        "emotion": 0.45,
+        "depth": 0.55,
+        "time": 0.3,
+        "seriousness": 0.72,
+        "intimacy": 0.4,
+        "tension": 0.8,
+        "situational": 0.75,
+        "externalFocus": 0.85
+      }
+    },
+    {
+      "id": "484f7432-ace6-4e1d-92f1-a5b7a4afc2b8",
+      "contentID": "484f7432-ace6-4e1d-92f1-a5b7a4afc2b8",
+      "revision": 1,
+      "text": "Sevgilinin karşı cinse iltifat etmesi: OK mu, NOK mu?",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "oknok"
+      ],
+      "dna": {
+        "emotion": 0.5,
+        "depth": 0.45,
+        "time": 0.18,
+        "seriousness": 0.6,
+        "intimacy": 0.4,
+        "tension": 0.75,
+        "situational": 0.78,
+        "externalFocus": 0.78
+      }
+    },
+    {
+      "id": "abb1ff8f-6489-4c38-845b-de14c25d17a9",
+      "contentID": "abb1ff8f-6489-4c38-845b-de14c25d17a9",
+      "revision": 1,
+      "text": "Sevgilinin sadece özel günlerde hediye alması: OK mu, NOK mu?",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "oknok"
+      ],
+      "dna": {
+        "emotion": 0.5,
+        "depth": 0.42,
+        "time": 0.2,
+        "seriousness": 0.5,
+        "intimacy": 0.5,
+        "tension": 0.55,
+        "situational": 0.82,
+        "externalFocus": 0.2
+      }
+    },
+    {
+      "id": "a32e864d-9b9f-43f5-a9d0-e6a79717ad7d",
+      "contentID": "a32e864d-9b9f-43f5-a9d0-e6a79717ad7d",
+      "revision": 1,
+      "text": "Tartışmalarda susup hiç konuşmamak: OK mu, NOK mu?",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "oknok"
+      ],
+      "dna": {
+        "emotion": 0.48,
+        "depth": 0.58,
+        "time": 0.2,
+        "seriousness": 0.68,
+        "intimacy": 0.45,
+        "tension": 0.7,
+        "situational": 0.7,
+        "externalFocus": 0.15
+      }
+    },
+    {
+      "id": "1c8c3f85-c54d-4158-b32d-97c42dcc14b7",
+      "contentID": "1c8c3f85-c54d-4158-b32d-97c42dcc14b7",
+      "revision": 1,
+      "text": "İlişkide sürekli konum atma alışkanlığı: OK mu, NOK mu?",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "oknok"
+      ],
+      "dna": {
+        "emotion": 0.38,
+        "depth": 0.45,
+        "time": 0.2,
+        "seriousness": 0.62,
+        "intimacy": 0.4,
+        "tension": 0.68,
+        "situational": 0.85,
+        "externalFocus": 0.3
+      }
+    },
+    {
+      "id": "56aa6166-5dad-4d8d-bcb9-81639d43a436",
+      "contentID": "56aa6166-5dad-4d8d-bcb9-81639d43a436",
+      "revision": 1,
+      "text": "Sorunları konuşmak yerine sadece özür dilemek: OK mu, NOK mu?",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "oknok"
+      ],
+      "dna": {
+        "emotion": 0.5,
+        "depth": 0.6,
+        "time": 0.22,
+        "seriousness": 0.66,
+        "intimacy": 0.5,
+        "tension": 0.62,
+        "situational": 0.68,
+        "externalFocus": 0.15
+      }
+    },
+    {
+      "id": "d7a03c4c-8c43-43ff-a36e-c03360537a57",
+      "contentID": "d7a03c4c-8c43-43ff-a36e-c03360537a57",
+      "revision": 1,
+      "text": "Karşı cinsten birine “canım” / “kuzum” demek: OK mu, NOK mu?",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "oknok"
+      ],
+      "dna": {
+        "emotion": 0.48,
+        "depth": 0.4,
+        "time": 0.16,
+        "seriousness": 0.55,
+        "intimacy": 0.38,
+        "tension": 0.72,
+        "situational": 0.8,
+        "externalFocus": 0.8
+      }
+    },
+    {
+      "id": "84294b22-99ad-4f99-8556-c8a39fe48d2d",
+      "contentID": "84294b22-99ad-4f99-8556-c8a39fe48d2d",
+      "revision": 1,
+      "text": "Sevgilinin telefonunda eski sevgilisinin fotoğrafının durması: OK mu, NOK mu?",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "oknok"
+      ],
+      "dna": {
+        "emotion": 0.55,
+        "depth": 0.48,
+        "time": 0.4,
+        "seriousness": 0.68,
+        "intimacy": 0.42,
+        "tension": 0.78,
+        "situational": 0.72,
+        "externalFocus": 0.8
+      }
+    },
+    {
+      "id": "393c926a-91d8-4d67-af2c-9e9daaa1ba7d",
+      "contentID": "393c926a-91d8-4d67-af2c-9e9daaa1ba7d",
+      "revision": 1,
+      "text": "Seni sosyal medyada hiç paylaşmaması: OK mu, NOK mu?",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "oknok"
+      ],
+      "dna": {
+        "emotion": 0.55,
+        "depth": 0.45,
+        "time": 0.2,
+        "seriousness": 0.55,
+        "intimacy": 0.5,
+        "tension": 0.6,
+        "situational": 0.8,
+        "externalFocus": 0.5
+      }
+    },
+    {
+      "id": "a356f936-4f01-44fa-a7f4-24e51361affc",
+      "contentID": "a356f936-4f01-44fa-a7f4-24e51361affc",
+      "revision": 1,
+      "text": "Kavga ederken sana bağırması: OK mu, NOK mu?",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "oknok"
+      ],
+      "dna": {
+        "emotion": 0.62,
+        "depth": 0.5,
+        "time": 0.18,
+        "seriousness": 0.72,
+        "intimacy": 0.45,
+        "tension": 0.85,
+        "situational": 0.78,
+        "externalFocus": 0.15
+      }
+    },
+    {
+      "id": "8198c248-f06e-410d-aacb-38f911a7dde8",
+      "contentID": "8198c248-f06e-410d-aacb-38f911a7dde8",
+      "revision": 1,
+      "text": "Arabadan inerken kapını açması: jest mi, olması gereken mi?",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "prenses"
+      ],
+      "dna": {
+        "emotion": 0.55,
+        "depth": 0.32,
+        "time": 0.2,
+        "seriousness": 0.42,
+        "intimacy": 0.55,
+        "tension": 0.32,
+        "situational": 0.9,
+        "externalFocus": 0.18
+      }
+    },
+    {
+      "id": "968ad718-7932-4e1c-9cbe-4ac43f380e43",
+      "contentID": "968ad718-7932-4e1c-9cbe-4ac43f380e43",
+      "revision": 1,
+      "text": "Masaya otururken sandalyeni senin için çekmesi: jest mi, olması gereken mi?",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "prenses"
+      ],
+      "dna": {
+        "emotion": 0.55,
+        "depth": 0.3,
+        "time": 0.2,
+        "seriousness": 0.4,
+        "intimacy": 0.55,
+        "tension": 0.3,
+        "situational": 0.9,
+        "externalFocus": 0.18
+      }
+    },
+    {
+      "id": "3bd88d33-9f11-40a3-8fc3-cf8ac4ff3b9b",
+      "contentID": "3bd88d33-9f11-40a3-8fc3-cf8ac4ff3b9b",
+      "revision": 1,
+      "text": "Bütün hesapları onun ödemesi: jest mi, olması gereken mi?",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "prenses"
+      ],
+      "dna": {
+        "emotion": 0.45,
+        "depth": 0.4,
+        "time": 0.25,
+        "seriousness": 0.55,
+        "intimacy": 0.45,
+        "tension": 0.45,
+        "situational": 0.85,
+        "externalFocus": 0.3
+      }
+    },
+    {
+      "id": "72062243-ca0a-4118-bf25-19ab8024e8c8",
+      "contentID": "72062243-ca0a-4118-bf25-19ab8024e8c8",
+      "revision": 1,
+      "text": "Kavgada hatalı sen olsan bile önce onun özür dilemesi: jest mi, olması gereken mi?",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "prenses"
+      ],
+      "dna": {
+        "emotion": 0.55,
+        "depth": 0.5,
+        "time": 0.22,
+        "seriousness": 0.58,
+        "intimacy": 0.52,
+        "tension": 0.5,
+        "situational": 0.72,
+        "externalFocus": 0.15
+      }
+    },
+    {
+      "id": "d0d87603-16d9-478d-a6d5-13f704ab87fe",
+      "contentID": "d0d87603-16d9-478d-a6d5-13f704ab87fe",
+      "revision": 1,
+      "text": "Yolda yürürken seni kaldırım tarafına alması: jest mi, olması gereken mi?",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "prenses"
+      ],
+      "dna": {
+        "emotion": 0.55,
+        "depth": 0.32,
+        "time": 0.2,
+        "seriousness": 0.4,
+        "intimacy": 0.55,
+        "tension": 0.3,
+        "situational": 0.9,
+        "externalFocus": 0.2
+      }
+    },
+    {
+      "id": "9a823676-6e3b-4963-abe2-743e6ce556fa",
+      "contentID": "9a823676-6e3b-4963-abe2-743e6ce556fa",
+      "revision": 1,
+      "text": "Senin ayakkabını bağlaması: jest mi, olması gereken mi?",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "prenses"
+      ],
+      "dna": {
+        "emotion": 0.58,
+        "depth": 0.35,
+        "time": 0.2,
+        "seriousness": 0.38,
+        "intimacy": 0.62,
+        "tension": 0.3,
+        "situational": 0.9,
+        "externalFocus": 0.12
+      }
+    },
+    {
+      "id": "a321f6e8-b56f-4820-b74f-6275df334ef4",
+      "contentID": "a321f6e8-b56f-4820-b74f-6275df334ef4",
+      "revision": 1,
+      "text": "Yorulduğunda seni taşıması: jest mi, olması gereken mi?",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "prenses"
+      ],
+      "dna": {
+        "emotion": 0.58,
+        "depth": 0.35,
+        "time": 0.2,
+        "seriousness": 0.35,
+        "intimacy": 0.65,
+        "tension": 0.3,
+        "situational": 0.88,
+        "externalFocus": 0.12
+      }
+    },
+    {
+      "id": "0c440968-dc61-437f-8c9b-d844ef164c3a",
+      "contentID": "0c440968-dc61-437f-8c9b-d844ef164c3a",
+      "revision": 1,
+      "text": "Sen söylemeden modunun düştüğünü anlaması: jest mi, olması gereken mi?",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "prenses"
+      ],
+      "dna": {
+        "emotion": 0.68,
+        "depth": 0.58,
+        "time": 0.25,
+        "seriousness": 0.5,
+        "intimacy": 0.65,
+        "tension": 0.32,
+        "situational": 0.6,
+        "externalFocus": 0.12
+      }
+    },
+    {
+      "id": "8aef0469-0231-4067-9c77-a12d6aefce07",
+      "contentID": "8aef0469-0231-4067-9c77-a12d6aefce07",
+      "revision": 1,
+      "text": "Kankasına “40'a kadar bekar kalırsak evleniriz” sözü vermesi: OK mu, NOK mu?",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "oknok"
+      ],
+      "dna": {
+        "emotion": 0.42,
+        "depth": 0.45,
+        "time": 0.45,
+        "seriousness": 0.62,
+        "intimacy": 0.38,
+        "tension": 0.62,
+        "situational": 0.66,
+        "externalFocus": 0.72
+      }
+    },
+    {
+      "id": "e162b83e-1816-4a4d-af6a-37686ca519bf",
+      "contentID": "e162b83e-1816-4a4d-af6a-37686ca519bf",
+      "revision": 1,
+      "text": "Senin haberin olmadan sahte bir hesap açması: aldatmak mı, değil mi?",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "aldatma"
+      ],
+      "dna": {
+        "emotion": 0.58,
+        "depth": 0.5,
+        "time": 0.2,
+        "seriousness": 0.82,
+        "intimacy": 0.4,
+        "tension": 0.86,
+        "situational": 0.75,
+        "externalFocus": 0.6
+      }
+    },
+    {
+      "id": "5dd2ac49-af4a-4ac8-b280-25d58aa3fae5",
+      "contentID": "5dd2ac49-af4a-4ac8-b280-25d58aa3fae5",
+      "revision": 1,
+      "text": "Senden habersiz karşı cinsten arkadaşıyla buluşması: aldatmak mı, değil mi?",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "aldatma"
+      ],
+      "dna": {
+        "emotion": 0.62,
+        "depth": 0.55,
+        "time": 0.2,
+        "seriousness": 0.85,
+        "intimacy": 0.45,
+        "tension": 0.9,
+        "situational": 0.8,
+        "externalFocus": 0.85
+      }
+    },
+    {
+      "id": "370649c2-d459-42c9-88ad-b025ea50648c",
+      "contentID": "370649c2-d459-42c9-88ad-b025ea50648c",
+      "revision": 1,
+      "text": "Eski sevgilisinin hesabını sürekli stalklaması: aldatmak mı, değil mi?",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "aldatma"
+      ],
+      "dna": {
+        "emotion": 0.58,
+        "depth": 0.55,
+        "time": 0.38,
+        "seriousness": 0.78,
+        "intimacy": 0.42,
+        "tension": 0.82,
+        "situational": 0.75,
+        "externalFocus": 0.82
+      }
+    },
+    {
+      "id": "cae13185-c538-4462-b98a-cf5f93077723",
+      "contentID": "cae13185-c538-4462-b98a-cf5f93077723",
+      "revision": 1,
+      "text": "Karşı cinsten arkadaşına seni şikayet etmesi: aldatmak mı, değil mi?",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "aldatma"
+      ],
+      "dna": {
+        "emotion": 0.6,
+        "depth": 0.52,
+        "time": 0.2,
+        "seriousness": 0.75,
+        "intimacy": 0.45,
+        "tension": 0.8,
+        "situational": 0.7,
+        "externalFocus": 0.82
+      }
+    },
+    {
+      "id": "0628fa48-f1b6-44d1-87b1-40ab4d499299",
+      "contentID": "0628fa48-f1b6-44d1-87b1-40ab4d499299",
+      "revision": 1,
+      "text": "Sırf seni kıskandırmak için birine yakın davranması: aldatmak mı, değil mi?",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "aldatma"
+      ],
+      "dna": {
+        "emotion": 0.62,
+        "depth": 0.5,
+        "time": 0.18,
+        "seriousness": 0.78,
+        "intimacy": 0.42,
+        "tension": 0.88,
+        "situational": 0.75,
+        "externalFocus": 0.8
+      }
+    },
+    {
+      "id": "c3408ebe-5b0d-4f99-957d-b354187ae5a5",
+      "contentID": "c3408ebe-5b0d-4f99-957d-b354187ae5a5",
+      "revision": 1,
+      "text": "Rüyasında başkasının adını sayıklaması: aldatmak mı, değil mi?",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "aldatma"
+      ],
+      "dna": {
+        "emotion": 0.6,
+        "depth": 0.55,
+        "time": 0.25,
+        "seriousness": 0.48,
+        "intimacy": 0.5,
+        "tension": 0.6,
+        "situational": 0.48,
+        "externalFocus": 0.68
+      }
+    },
+    {
+      "id": "bb8290a4-34a3-4562-80b9-5d4635de314e",
+      "contentID": "bb8290a4-34a3-4562-80b9-5d4635de314e",
+      "revision": 1,
+      "text": "Telefonu sana vermeden önce bir şeyler silmesi: aldatmak mı, değil mi?",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "aldatma"
+      ],
+      "dna": {
+        "emotion": 0.58,
+        "depth": 0.5,
+        "time": 0.2,
+        "seriousness": 0.82,
+        "intimacy": 0.42,
+        "tension": 0.88,
+        "situational": 0.82,
+        "externalFocus": 0.6
+      }
+    },
+    {
+      "id": "68c15861-3d8d-461e-9670-cff0099ba180",
+      "contentID": "68c15861-3d8d-461e-9670-cff0099ba180",
+      "revision": 1,
+      "text": "Hediye alma yaratıcılığına on üzerinden kaç verirsin?",
+      "type": "openEnded",
+      "options": null,
+      "categories": [
+        "puanlaErkek"
+      ],
+      "dna": {
+        "emotion": 0.5,
+        "depth": 0.4,
+        "time": 0.35,
+        "seriousness": 0.4,
+        "intimacy": 0.48,
+        "tension": 0.35,
+        "situational": 0.62,
+        "externalFocus": 0.2
+      }
+    },
+    {
+      "id": "97719dcd-d852-4d22-b1a3-468ea6971324",
+      "contentID": "97719dcd-d852-4d22-b1a3-468ea6971324",
+      "revision": 1,
+      "text": "Sebepsiz trip attığında seni alttan alma sabrına kaç puan verirsin?",
+      "type": "openEnded",
+      "options": null,
+      "categories": [
+        "puanlaErkek"
+      ],
+      "dna": {
+        "emotion": 0.55,
+        "depth": 0.48,
+        "time": 0.3,
+        "seriousness": 0.5,
+        "intimacy": 0.5,
+        "tension": 0.45,
+        "situational": 0.6,
+        "externalFocus": 0.15
+      }
+    },
+    {
+      "id": "c6961d50-8987-4c4a-a3c7-990981241af3",
+      "contentID": "c6961d50-8987-4c4a-a3c7-990981241af3",
+      "revision": 1,
+      "text": "Seni güzel ve çekici hissettirme gücüne kaç puan verirsin?",
+      "type": "openEnded",
+      "options": null,
+      "categories": [
+        "puanlaErkek"
+      ],
+      "dna": {
+        "emotion": 0.62,
+        "depth": 0.42,
+        "time": 0.3,
+        "seriousness": 0.38,
+        "intimacy": 0.62,
+        "tension": 0.3,
+        "situational": 0.55,
+        "externalFocus": 0.18
+      }
+    },
+    {
+      "id": "bf374953-1556-40bb-a602-989a6e029351",
+      "contentID": "bf374953-1556-40bb-a602-989a6e029351",
+      "revision": 1,
+      "text": "Seninle alışveriş yaparkenki sabrına kaç puan verirsin?",
+      "type": "openEnded",
+      "options": null,
+      "categories": [
+        "puanlaErkek"
+      ],
+      "dna": {
+        "emotion": 0.42,
+        "depth": 0.35,
+        "time": 0.3,
+        "seriousness": 0.35,
+        "intimacy": 0.42,
+        "tension": 0.4,
+        "situational": 0.7,
+        "externalFocus": 0.2
+      }
+    },
+    {
+      "id": "bdf847a6-2df7-4769-a11e-5c2a549c4d04",
+      "contentID": "bdf847a6-2df7-4769-a11e-5c2a549c4d04",
+      "revision": 1,
+      "text": "Özel günleri planlama yeteneğine kaç puan verirsin?",
+      "type": "openEnded",
+      "options": null,
+      "categories": [
+        "puanlaErkek"
+      ],
+      "dna": {
+        "emotion": 0.52,
+        "depth": 0.4,
+        "time": 0.42,
+        "seriousness": 0.45,
+        "intimacy": 0.5,
+        "tension": 0.35,
+        "situational": 0.65,
+        "externalFocus": 0.2
+      }
+    },
+    {
+      "id": "bee1f4c7-6856-40ec-a790-0d6e03fa0df9",
+      "contentID": "bee1f4c7-6856-40ec-a790-0d6e03fa0df9",
+      "revision": 1,
+      "text": "Fikirlerine saygı duyma seviyesine kaç puan verirsin?",
+      "type": "openEnded",
+      "options": null,
+      "categories": [
+        "puanlaErkek"
+      ],
+      "dna": {
+        "emotion": 0.5,
+        "depth": 0.55,
+        "time": 0.3,
+        "seriousness": 0.55,
+        "intimacy": 0.5,
+        "tension": 0.42,
+        "situational": 0.5,
+        "externalFocus": 0.18
+      }
+    },
+    {
+      "id": "727d16e2-b0e4-4e8e-a404-97da4ac235a8",
+      "contentID": "727d16e2-b0e4-4e8e-a404-97da4ac235a8",
+      "revision": 1,
+      "text": "Verdiği sözleri hayata geçirme başarısına kaç puan verirsin?",
+      "type": "openEnded",
+      "options": null,
+      "categories": [
+        "puanlaErkek"
+      ],
+      "dna": {
+        "emotion": 0.48,
+        "depth": 0.5,
+        "time": 0.45,
+        "seriousness": 0.58,
+        "intimacy": 0.48,
+        "tension": 0.42,
+        "situational": 0.55,
+        "externalFocus": 0.18
+      }
+    },
+    {
+      "id": "7365b421-fc68-4849-b887-ea7dd3b50e6b",
+      "contentID": "7365b421-fc68-4849-b887-ea7dd3b50e6b",
+      "revision": 1,
+      "text": "Erkek arkadaşının tarzına on üzerinden kaç verirsin?",
+      "type": "openEnded",
+      "options": null,
+      "categories": [
+        "puanlaErkek"
+      ],
+      "dna": {
+        "emotion": 0.45,
+        "depth": 0.3,
+        "time": 0.28,
+        "seriousness": 0.3,
+        "intimacy": 0.45,
+        "tension": 0.3,
+        "situational": 0.6,
+        "externalFocus": 0.25
+      }
+    }
+  ]
 }
