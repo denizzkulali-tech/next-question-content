@@ -1,0 +1,19 @@
+{
+  "context": "couples",
+  "version": 1,
+  "categories": [
+    { "key": "oknok",      "label": "OK mu, NOK mu?",                           "meta": "Sınırları tek tek konuş",                                  "emoji": "✅", "color": "#2C7A66", "order": 1,  "exclusive": true },
+    { "key": "aldatma",     "label": "Aldatmak mı, Değil mi?",                  "meta": "Gri alanları tartış",                                      "emoji": "🚩", "color": "#B3242C", "order": 2,  "exclusive": true },
+    { "key": "prenses",     "label": "Prenses Muamelesi mi, Olması Gereken mi?", "meta": "Beklenti mi, şımartma mı",                                 "emoji": "👑", "color": "#8A5F12", "order": 3,  "exclusive": true },
+    { "key": "gecmis",      "label": "Geçmişimiz",                              "meta": "Birlikte geride kalanlar",                                 "emoji": "📼", "color": "#8A6A3C", "order": 4,  "exclusive": false },
+    { "key": "ileride",     "label": "İleride Biz",                             "meta": "Planlar ve beklentiler",                                   "emoji": "🔭", "color": "#2F5FA8", "order": 5,  "exclusive": false },
+    { "key": "asksal",      "label": "Aşksal",                                 "meta": "Lovebombing soruları",                                     "emoji": "💞", "color": "#C43A6E", "order": 6,  "exclusive": false },
+    { "key": "cesur",       "label": "Cesur Sorular",                          "meta": "Yüksek risk, yüksek kazanç 😌",                             "emoji": "🎲", "color": "#7A4AA8", "order": 7,  "exclusive": false },
+    { "key": "tanima",      "label": "Beni Ne Kadar Tanıyorsun?",              "meta": "Küçük detaylarda sınav",                                   "emoji": "🧩", "color": "#2A5F9E", "order": 8,  "exclusive": false },
+    { "key": "puanlaErkek", "label": "Erkek Arkadaşını Puanla",                "meta": "On üzerinden dürüst not",                                  "emoji": "🎯", "color": "#9A4E14", "order": 9,  "exclusive": false },
+    { "key": "puanlaKiz",   "label": "Kız Arkadaşını Puanla",                  "meta": "On üzerinden dürüst not",                                  "emoji": "🎯", "color": "#A8446A", "order": 10, "exclusive": false },
+    { "key": "senaryo",     "label": "Senaryolar",                            "meta": "3.kişiler,  zorlayıcı senaryolar sen napardın? soruları.", "emoji": "🎬", "color": "#4A6ACF", "order": 11, "exclusive": false },
+    { "key": "yaratici",    "label": "Yaratıcı Sorular",                       "meta": "Beklenmedik açılar",                                       "emoji": "🌀", "color": "#0F7A72", "order": 12, "exclusive": false }
+  ],
+  "questions": []
+}

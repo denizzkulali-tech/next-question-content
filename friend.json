@@ -1,0 +1,16 @@
+{
+  "context": "friend",
+  "version": 1,
+  "categories": [
+    { "key": "tanima",     "label": "Beni Ne Kadar Tanıyorsun?", "meta": "Ne kadar okuyorsun beni",     "emoji": "🧩", "color": "#2A5F9E", "order": 1, "exclusive": false },
+    { "key": "ilkizlenim", "label": "İlk İzlenim",               "meta": "İlk tanışma anı",             "emoji": "👀", "color": "#2C6699", "order": 2, "exclusive": false },
+    { "key": "eski",       "label": "Eski Günler",               "meta": "Ortak geçmiş, eski hikâyeler", "emoji": "📼", "color": "#8A6A3C", "order": 3, "exclusive": false },
+    { "key": "itiraf",     "label": "İtiraflar",                 "meta": "Aramızda kalacak şeyler",      "emoji": "🤫", "color": "#7A4AA8", "order": 4, "exclusive": false },
+    { "key": "kim",        "label": "Kim Daha?",                 "meta": "İkimizi karşılaştır",          "emoji": "⚖️", "color": "#2C7A66", "order": 5, "exclusive": false },
+    { "key": "senaryo",    "label": "Senaryolar",               "meta": "Hayali durumlar",             "emoji": "🎬", "color": "#4A6ACF", "order": 6, "exclusive": false },
+    { "key": "puanlama",   "label": "Puanlama",                  "meta": "Birbirimize not ver",         "emoji": "🎯", "color": "#9A4E14", "order": 7, "exclusive": false },
+    { "key": "dedikodu",   "label": "Dedikodu",                  "meta": "Ortak tanıdıklar üzerine",     "emoji": "🗣️", "color": "#A8446A", "order": 8, "exclusive": false },
+    { "key": "yaratici",   "label": "Yaratıcı Sorular",          "meta": "Beklenmedik açılar",          "emoji": "🌀", "color": "#0F7A72", "order": 9, "exclusive": false }
+  ],
+  "questions": []
+}

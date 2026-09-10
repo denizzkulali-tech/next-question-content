@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "contexts": {
+    "couples": { "version": 1, "url": "couples.json" },
+    "friend":  { "version": 1, "url": "friend.json" },
+    "group":   { "version": 1, "url": "group.json" }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "context": "group",
+  "version": 1,
+  "categories": [
+    { "key": "birini",   "label": "Birini Seç",       "meta": "Masadan birini işaret et",       "emoji": "👉", "color": "#2C7A66", "order": 1, "exclusive": false },
+    { "key": "itiraf",    "label": "İtiraflar",        "meta": "Yüksek sesle söylenenler",       "emoji": "🤫", "color": "#7A4AA8", "order": 2, "exclusive": false },
+    { "key": "dedikodu",  "label": "Dedikodu",         "meta": "Masanın konuştuğu konular",      "emoji": "🗣️", "color": "#A8446A", "order": 3, "exclusive": false },
+    { "key": "senaryo",   "label": "Senaryolar",       "meta": "Beraber düşün, beraber çöz",     "emoji": "🎬", "color": "#4A6ACF", "order": 4, "exclusive": false },
+    { "key": "absurt",    "label": "Fantezi / Absürt", "meta": "Sınır tanımayan sorular",        "emoji": "🛸", "color": "#6A4AC0", "order": 5, "exclusive": false },
+    { "key": "karistir",  "label": "Ortamı Karıştır",  "meta": "Riskli ama eğlenceli",           "emoji": "🌪️", "color": "#C4211D", "order": 6, "exclusive": false },
+    { "key": "oylama",    "label": "Oylama",           "meta": "Masa oy verir, sonuç açıklanır", "emoji": "🗳️", "color": "#2F6FA8", "order": 7, "exclusive": false },
+    { "key": "yaratici",  "label": "Yaratıcı Sorular", "meta": "Beklenmedik açılar",             "emoji": "🌀", "color": "#0F7A72", "order": 8, "exclusive": false }
+  ],
+  "questions": []
+}
