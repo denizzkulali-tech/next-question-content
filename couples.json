@@ -1,6 +1,6 @@
 {
   "context": "couples",
-  "version": 2,
+  "version": 3,
   "categories": [
     {
       "key": "oknok",
@@ -113,10 +113,10 @@
   ],
   "questions": [
     {
-      "id": "72a26be8-715d-4f4e-80d7-cd9a7342365e",
+      "id": "d301bc3d-49c7-4aa4-9ecf-13350d1bf57b",
       "contentID": "72a26be8-715d-4f4e-80d7-cd9a7342365e",
-      "revision": 1,
-      "text": "Partnerinin hoşlanmadığı biriyle iletişimi sürdürmek: OK mu, NOK mu?",
+      "revision": 2,
+      "text": "Partnerinin hoşlanmadığı biriyle iletişimi sürdürmek",
       "type": "thisOrThat",
       "options": null,
       "categories": [
@@ -131,13 +131,14 @@
         "tension": 0.78,
         "situational": 0.8,
         "externalFocus": 0.8
-      }
+      },
+      "templateTitle": "OK mu, NOK mu?"
     },
     {
-      "id": "e998ad8c-b93f-4210-beea-1c24e1a070a7",
+      "id": "9edd9fc9-a5ae-4770-901c-cca4052b6644",
       "contentID": "e998ad8c-b93f-4210-beea-1c24e1a070a7",
-      "revision": 1,
-      "text": "Ex ile arkadaş kalmak: OK mu, NOK mu?",
+      "revision": 2,
+      "text": "Ex ile arkadaş kalmak",
       "type": "thisOrThat",
       "options": null,
       "categories": [
@@ -152,13 +153,14 @@
         "tension": 0.8,
         "situational": 0.75,
         "externalFocus": 0.85
-      }
+      },
+      "templateTitle": "OK mu, NOK mu?"
     },
     {
-      "id": "484f7432-ace6-4e1d-92f1-a5b7a4afc2b8",
+      "id": "dfba624f-78be-47c1-9a11-c778f015578b",
       "contentID": "484f7432-ace6-4e1d-92f1-a5b7a4afc2b8",
-      "revision": 1,
-      "text": "Sevgilinin karşı cinse iltifat etmesi: OK mu, NOK mu?",
+      "revision": 2,
+      "text": "Sevgilinin karşı cinse iltifat etmesi",
       "type": "thisOrThat",
       "options": null,
       "categories": [
@@ -173,13 +175,14 @@
         "tension": 0.75,
         "situational": 0.78,
         "externalFocus": 0.78
-      }
+      },
+      "templateTitle": "OK mu, NOK mu?"
     },
     {
-      "id": "abb1ff8f-6489-4c38-845b-de14c25d17a9",
+      "id": "9eb2259c-e442-44d3-b670-2644306f4e50",
       "contentID": "abb1ff8f-6489-4c38-845b-de14c25d17a9",
-      "revision": 1,
-      "text": "Sevgilinin sadece özel günlerde hediye alması: OK mu, NOK mu?",
+      "revision": 2,
+      "text": "Sevgilinin sadece özel günlerde hediye alması",
       "type": "thisOrThat",
       "options": null,
       "categories": [
@@ -194,13 +197,14 @@
         "tension": 0.55,
         "situational": 0.82,
         "externalFocus": 0.2
-      }
+      },
+      "templateTitle": "OK mu, NOK mu?"
     },
     {
-      "id": "a32e864d-9b9f-43f5-a9d0-e6a79717ad7d",
+      "id": "81c7361b-5dff-44a2-8ed4-97028fc91e57",
       "contentID": "a32e864d-9b9f-43f5-a9d0-e6a79717ad7d",
-      "revision": 1,
-      "text": "Tartışmalarda susup hiç konuşmamak: OK mu, NOK mu?",
+      "revision": 2,
+      "text": "Tartışmalarda susup hiç konuşmamak",
       "type": "thisOrThat",
       "options": null,
       "categories": [
@@ -215,13 +219,14 @@
         "tension": 0.7,
         "situational": 0.7,
         "externalFocus": 0.15
-      }
+      },
+      "templateTitle": "OK mu, NOK mu?"
     },
     {
-      "id": "1c8c3f85-c54d-4158-b32d-97c42dcc14b7",
+      "id": "1101aeb7-b959-47a9-9d3f-7d5b8cf7895d",
       "contentID": "1c8c3f85-c54d-4158-b32d-97c42dcc14b7",
-      "revision": 1,
-      "text": "İlişkide sürekli konum atma alışkanlığı: OK mu, NOK mu?",
+      "revision": 2,
+      "text": "İlişkide sürekli konum atma alışkanlığı",
       "type": "thisOrThat",
       "options": null,
       "categories": [
@@ -236,13 +241,14 @@
         "tension": 0.68,
         "situational": 0.85,
         "externalFocus": 0.3
-      }
+      },
+      "templateTitle": "OK mu, NOK mu?"
     },
     {
-      "id": "56aa6166-5dad-4d8d-bcb9-81639d43a436",
+      "id": "c8899e04-6ddc-47bc-b21a-ce99d189bd32",
       "contentID": "56aa6166-5dad-4d8d-bcb9-81639d43a436",
-      "revision": 1,
-      "text": "Sorunları konuşmak yerine sadece özür dilemek: OK mu, NOK mu?",
+      "revision": 2,
+      "text": "Sorunları konuşmak yerine sadece özür dilemek",
       "type": "thisOrThat",
       "options": null,
       "categories": [
@@ -257,13 +263,14 @@
         "tension": 0.62,
         "situational": 0.68,
         "externalFocus": 0.15
-      }
+      },
+      "templateTitle": "OK mu, NOK mu?"
     },
     {
-      "id": "d7a03c4c-8c43-43ff-a36e-c03360537a57",
+      "id": "85100775-024f-4c9e-89a8-b65789017748",
       "contentID": "d7a03c4c-8c43-43ff-a36e-c03360537a57",
-      "revision": 1,
-      "text": "Karşı cinsten birine “canım” / “kuzum” demek: OK mu, NOK mu?",
+      "revision": 2,
+      "text": "Karşı cinsten birine “canım” / “kuzum” demek",
       "type": "thisOrThat",
       "options": null,
       "categories": [
@@ -278,13 +285,14 @@
         "tension": 0.72,
         "situational": 0.8,
         "externalFocus": 0.8
-      }
+      },
+      "templateTitle": "OK mu, NOK mu?"
     },
     {
-      "id": "84294b22-99ad-4f99-8556-c8a39fe48d2d",
+      "id": "e1dc26e2-0b5e-4e8c-a022-ba391788c904",
       "contentID": "84294b22-99ad-4f99-8556-c8a39fe48d2d",
-      "revision": 1,
-      "text": "Sevgilinin telefonunda eski sevgilisinin fotoğrafının durması: OK mu, NOK mu?",
+      "revision": 2,
+      "text": "Sevgilinin telefonunda eski sevgilisinin fotoğrafının durması",
       "type": "thisOrThat",
       "options": null,
       "categories": [
@@ -299,13 +307,14 @@
         "tension": 0.78,
         "situational": 0.72,
         "externalFocus": 0.8
-      }
+      },
+      "templateTitle": "OK mu, NOK mu?"
     },
     {
-      "id": "393c926a-91d8-4d67-af2c-9e9daaa1ba7d",
+      "id": "5242a887-09f0-4d2f-83f9-037ed4feb114",
       "contentID": "393c926a-91d8-4d67-af2c-9e9daaa1ba7d",
-      "revision": 1,
-      "text": "Seni sosyal medyada hiç paylaşmaması: OK mu, NOK mu?",
+      "revision": 2,
+      "text": "Seni sosyal medyada hiç paylaşmaması",
       "type": "thisOrThat",
       "options": null,
       "categories": [
@@ -320,13 +329,14 @@
         "tension": 0.6,
         "situational": 0.8,
         "externalFocus": 0.5
-      }
+      },
+      "templateTitle": "OK mu, NOK mu?"
     },
     {
-      "id": "a356f936-4f01-44fa-a7f4-24e51361affc",
+      "id": "209a782d-454f-486e-bdb3-1249390fc17f",
       "contentID": "a356f936-4f01-44fa-a7f4-24e51361affc",
-      "revision": 1,
-      "text": "Kavga ederken sana bağırması: OK mu, NOK mu?",
+      "revision": 2,
+      "text": "Kavga ederken sana bağırması",
       "type": "thisOrThat",
       "options": null,
       "categories": [
@@ -341,13 +351,14 @@
         "tension": 0.85,
         "situational": 0.78,
         "externalFocus": 0.15
-      }
+      },
+      "templateTitle": "OK mu, NOK mu?"
     },
     {
-      "id": "8198c248-f06e-410d-aacb-38f911a7dde8",
+      "id": "2939a272-8959-49a7-a462-3a0c855012aa",
       "contentID": "8198c248-f06e-410d-aacb-38f911a7dde8",
-      "revision": 1,
-      "text": "Arabadan inerken kapını açması: jest mi, olması gereken mi?",
+      "revision": 2,
+      "text": "Arabadan inerken kapını açması",
       "type": "thisOrThat",
       "options": null,
       "categories": [
@@ -362,13 +373,14 @@
         "tension": 0.32,
         "situational": 0.9,
         "externalFocus": 0.18
-      }
+      },
+      "templateTitle": "Prenses Muamelesi mi, Olması Gereken mi?"
     },
     {
-      "id": "968ad718-7932-4e1c-9cbe-4ac43f380e43",
+      "id": "c73eaa27-5d38-47c0-a98e-d21743af89b0",
       "contentID": "968ad718-7932-4e1c-9cbe-4ac43f380e43",
-      "revision": 1,
-      "text": "Masaya otururken sandalyeni senin için çekmesi: jest mi, olması gereken mi?",
+      "revision": 2,
+      "text": "Masaya otururken sandalyeni senin için çekmesi",
       "type": "thisOrThat",
       "options": null,
       "categories": [
@@ -383,13 +395,14 @@
         "tension": 0.3,
         "situational": 0.9,
         "externalFocus": 0.18
-      }
+      },
+      "templateTitle": "Prenses Muamelesi mi, Olması Gereken mi?"
     },
     {
-      "id": "3bd88d33-9f11-40a3-8fc3-cf8ac4ff3b9b",
+      "id": "d80f11fe-4558-49b7-a547-aac7cfcdd416",
       "contentID": "3bd88d33-9f11-40a3-8fc3-cf8ac4ff3b9b",
-      "revision": 1,
-      "text": "Bütün hesapları onun ödemesi: jest mi, olması gereken mi?",
+      "revision": 2,
+      "text": "Bütün hesapları onun ödemesi",
       "type": "thisOrThat",
       "options": null,
       "categories": [
@@ -404,13 +417,14 @@
         "tension": 0.45,
         "situational": 0.85,
         "externalFocus": 0.3
-      }
+      },
+      "templateTitle": "Prenses Muamelesi mi, Olması Gereken mi?"
     },
     {
-      "id": "72062243-ca0a-4118-bf25-19ab8024e8c8",
+      "id": "ea98df9a-66d7-467d-8356-669e47ff6b4c",
       "contentID": "72062243-ca0a-4118-bf25-19ab8024e8c8",
-      "revision": 1,
-      "text": "Kavgada hatalı sen olsan bile önce onun özür dilemesi: jest mi, olması gereken mi?",
+      "revision": 2,
+      "text": "Kavgada hatalı sen olsan bile önce onun özür dilemesi",
       "type": "thisOrThat",
       "options": null,
       "categories": [
@@ -425,13 +439,14 @@
         "tension": 0.5,
         "situational": 0.72,
         "externalFocus": 0.15
-      }
+      },
+      "templateTitle": "Prenses Muamelesi mi, Olması Gereken mi?"
     },
     {
-      "id": "d0d87603-16d9-478d-a6d5-13f704ab87fe",
+      "id": "9614130b-eb3c-4840-a929-1dc7cbd76eb4",
       "contentID": "d0d87603-16d9-478d-a6d5-13f704ab87fe",
-      "revision": 1,
-      "text": "Yolda yürürken seni kaldırım tarafına alması: jest mi, olması gereken mi?",
+      "revision": 2,
+      "text": "Yolda yürürken seni kaldırım tarafına alması",
       "type": "thisOrThat",
       "options": null,
       "categories": [
@@ -446,13 +461,14 @@
         "tension": 0.3,
         "situational": 0.9,
         "externalFocus": 0.2
-      }
+      },
+      "templateTitle": "Prenses Muamelesi mi, Olması Gereken mi?"
     },
     {
-      "id": "9a823676-6e3b-4963-abe2-743e6ce556fa",
+      "id": "18d0f2d4-75ec-4d10-8c98-16797e82bb7c",
       "contentID": "9a823676-6e3b-4963-abe2-743e6ce556fa",
-      "revision": 1,
-      "text": "Senin ayakkabını bağlaması: jest mi, olması gereken mi?",
+      "revision": 2,
+      "text": "Senin ayakkabını bağlaması",
       "type": "thisOrThat",
       "options": null,
       "categories": [
@@ -467,13 +483,14 @@
         "tension": 0.3,
         "situational": 0.9,
         "externalFocus": 0.12
-      }
+      },
+      "templateTitle": "Prenses Muamelesi mi, Olması Gereken mi?"
     },
     {
-      "id": "a321f6e8-b56f-4820-b74f-6275df334ef4",
+      "id": "b930b413-2d02-4ed2-b1fa-f557d402ab16",
       "contentID": "a321f6e8-b56f-4820-b74f-6275df334ef4",
-      "revision": 1,
-      "text": "Yorulduğunda seni taşıması: jest mi, olması gereken mi?",
+      "revision": 2,
+      "text": "Yorulduğunda seni taşıması",
       "type": "thisOrThat",
       "options": null,
       "categories": [
@@ -488,13 +505,14 @@
         "tension": 0.3,
         "situational": 0.88,
         "externalFocus": 0.12
-      }
+      },
+      "templateTitle": "Prenses Muamelesi mi, Olması Gereken mi?"
     },
     {
-      "id": "0c440968-dc61-437f-8c9b-d844ef164c3a",
+      "id": "5de9cc9a-6dac-4e85-9f55-c02d3b7ff7c9",
       "contentID": "0c440968-dc61-437f-8c9b-d844ef164c3a",
-      "revision": 1,
-      "text": "Sen söylemeden modunun düştüğünü anlaması: jest mi, olması gereken mi?",
+      "revision": 2,
+      "text": "Sen söylemeden modunun düştüğünü anlaması",
       "type": "thisOrThat",
       "options": null,
       "categories": [
@@ -509,13 +527,14 @@
         "tension": 0.32,
         "situational": 0.6,
         "externalFocus": 0.12
-      }
+      },
+      "templateTitle": "Prenses Muamelesi mi, Olması Gereken mi?"
     },
     {
-      "id": "8aef0469-0231-4067-9c77-a12d6aefce07",
+      "id": "a64140ae-c19a-4cbb-a0d5-baffda0c5a34",
       "contentID": "8aef0469-0231-4067-9c77-a12d6aefce07",
-      "revision": 1,
-      "text": "Kankasına “40'a kadar bekar kalırsak evleniriz” sözü vermesi: OK mu, NOK mu?",
+      "revision": 2,
+      "text": "Kankasına “40'a kadar bekar kalırsak evleniriz” sözü vermesi",
       "type": "thisOrThat",
       "options": null,
       "categories": [
@@ -530,13 +549,14 @@
         "tension": 0.62,
         "situational": 0.66,
         "externalFocus": 0.72
-      }
+      },
+      "templateTitle": "OK mu, NOK mu?"
     },
     {
-      "id": "e162b83e-1816-4a4d-af6a-37686ca519bf",
+      "id": "db767be1-3a82-44d0-8208-6fa4237d266e",
       "contentID": "e162b83e-1816-4a4d-af6a-37686ca519bf",
-      "revision": 1,
-      "text": "Senin haberin olmadan sahte bir hesap açması: aldatmak mı, değil mi?",
+      "revision": 2,
+      "text": "Senin haberin olmadan sahte bir hesap açması",
       "type": "thisOrThat",
       "options": null,
       "categories": [
@@ -551,13 +571,14 @@
         "tension": 0.86,
         "situational": 0.75,
         "externalFocus": 0.6
-      }
+      },
+      "templateTitle": "Aldatmak mı, Değil mi?"
     },
     {
-      "id": "5dd2ac49-af4a-4ac8-b280-25d58aa3fae5",
+      "id": "a01ca884-fd33-4355-8f8b-b981739d6cc7",
       "contentID": "5dd2ac49-af4a-4ac8-b280-25d58aa3fae5",
-      "revision": 1,
-      "text": "Senden habersiz karşı cinsten arkadaşıyla buluşması: aldatmak mı, değil mi?",
+      "revision": 2,
+      "text": "Senden habersiz karşı cinsten arkadaşıyla buluşması",
       "type": "thisOrThat",
       "options": null,
       "categories": [
@@ -572,13 +593,14 @@
         "tension": 0.9,
         "situational": 0.8,
         "externalFocus": 0.85
-      }
+      },
+      "templateTitle": "Aldatmak mı, Değil mi?"
     },
     {
-      "id": "370649c2-d459-42c9-88ad-b025ea50648c",
+      "id": "6142b61c-3de2-483d-b466-1b944a7cbe1c",
       "contentID": "370649c2-d459-42c9-88ad-b025ea50648c",
-      "revision": 1,
-      "text": "Eski sevgilisinin hesabını sürekli stalklaması: aldatmak mı, değil mi?",
+      "revision": 2,
+      "text": "Eski sevgilisinin hesabını sürekli stalklaması",
       "type": "thisOrThat",
       "options": null,
       "categories": [
@@ -593,13 +615,14 @@
         "tension": 0.82,
         "situational": 0.75,
         "externalFocus": 0.82
-      }
+      },
+      "templateTitle": "Aldatmak mı, Değil mi?"
     },
     {
-      "id": "cae13185-c538-4462-b98a-cf5f93077723",
+      "id": "9d6c30c4-671f-457b-a684-fbdd75690176",
       "contentID": "cae13185-c538-4462-b98a-cf5f93077723",
-      "revision": 1,
-      "text": "Karşı cinsten arkadaşına seni şikayet etmesi: aldatmak mı, değil mi?",
+      "revision": 2,
+      "text": "Karşı cinsten arkadaşına seni şikayet etmesi",
       "type": "thisOrThat",
       "options": null,
       "categories": [
@@ -614,13 +637,14 @@
         "tension": 0.8,
         "situational": 0.7,
         "externalFocus": 0.82
-      }
+      },
+      "templateTitle": "Aldatmak mı, Değil mi?"
     },
     {
-      "id": "0628fa48-f1b6-44d1-87b1-40ab4d499299",
+      "id": "5cf53366-d001-4094-8e35-e6f89f444f45",
       "contentID": "0628fa48-f1b6-44d1-87b1-40ab4d499299",
-      "revision": 1,
-      "text": "Sırf seni kıskandırmak için birine yakın davranması: aldatmak mı, değil mi?",
+      "revision": 2,
+      "text": "Sırf seni kıskandırmak için birine yakın davranması",
       "type": "thisOrThat",
       "options": null,
       "categories": [
@@ -635,13 +659,14 @@
         "tension": 0.88,
         "situational": 0.75,
         "externalFocus": 0.8
-      }
+      },
+      "templateTitle": "Aldatmak mı, Değil mi?"
     },
     {
-      "id": "c3408ebe-5b0d-4f99-957d-b354187ae5a5",
+      "id": "b72352cc-9a37-4c81-9fc2-c8d4e41b68f0",
       "contentID": "c3408ebe-5b0d-4f99-957d-b354187ae5a5",
-      "revision": 1,
-      "text": "Rüyasında başkasının adını sayıklaması: aldatmak mı, değil mi?",
+      "revision": 2,
+      "text": "Rüyasında başkasının adını sayıklaması",
       "type": "thisOrThat",
       "options": null,
       "categories": [
@@ -656,13 +681,14 @@
         "tension": 0.6,
         "situational": 0.48,
         "externalFocus": 0.68
-      }
+      },
+      "templateTitle": "Aldatmak mı, Değil mi?"
     },
     {
-      "id": "bb8290a4-34a3-4562-80b9-5d4635de314e",
+      "id": "bf5a876c-973c-44dc-8e86-9302b79b0e45",
       "contentID": "bb8290a4-34a3-4562-80b9-5d4635de314e",
-      "revision": 1,
-      "text": "Telefonu sana vermeden önce bir şeyler silmesi: aldatmak mı, değil mi?",
+      "revision": 2,
+      "text": "Telefonu sana vermeden önce bir şeyler silmesi",
       "type": "thisOrThat",
       "options": null,
       "categories": [
@@ -677,7 +703,8 @@
         "tension": 0.88,
         "situational": 0.82,
         "externalFocus": 0.6
-      }
+      },
+      "templateTitle": "Aldatmak mı, Değil mi?"
     },
     {
       "id": "68c15861-3d8d-461e-9670-cff0099ba180",
