@@ -1,8 +1,17 @@
 {
   "schemaVersion": 1,
   "contexts": {
-    "couples": { "version": 3, "url": "couples.json" },
-    "friend":  { "version": 1, "url": "friend.json" },
-    "group":   { "version": 1, "url": "group.json" }
+    "couples": {
+      "version": 4,
+      "url": "couples.json"
+    },
+    "friend": {
+      "version": 1,
+      "url": "friend.json"
+    },
+    "group": {
+      "version": 1,
+      "url": "group.json"
+    }
   }
 }

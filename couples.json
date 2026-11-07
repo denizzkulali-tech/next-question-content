@@ -1,7 +1,16 @@
 {
   "context": "couples",
-  "version": 3,
+  "version": 4,
   "categories": [
+    {
+      "key": "editor",
+      "label": "Editörün Seçimi",
+      "meta": "Özenle seçilmiş sorular",
+      "emoji": "🏆",
+      "color": "#A8823A",
+      "order": 0,
+      "exclusive": false
+    },
     {
       "key": "oknok",
       "label": "OK mu, NOK mu?",
@@ -108,6 +117,15 @@
       "emoji": "🌀",
       "color": "#0F7A72",
       "order": 12,
+      "exclusive": false
+    },
+    {
+      "key": "iliskimiz",
+      "label": "İlişkimiz",
+      "meta": "Konuşulmayanları açığa çıkaran, ilişkinizi sorgulatan sert sorular.",
+      "emoji": "🪞",
+      "color": "#7A2E3D",
+      "order": 13,
       "exclusive": false
     }
   ],
@@ -873,6 +891,51 @@
         "situational": 0.6,
         "externalFocus": 0.25
       }
+    },
+    {
+      "id": "dc5a1a2c-2c13-4f54-b0e8-83973e30b4ca",
+      "contentID": "a0000000-0000-0000-0000-000000000003",
+      "revision": 2,
+      "text": "İlişkimizde adaletsizliğe uğradığını hissettiğin, içine attığın bir an oldu mu?",
+      "type": "openEnded",
+      "options": null,
+      "categories": [
+        "gecmis",
+        "iliskimiz",
+        "editor"
+      ],
+      "dna": {
+        "emotion": 0.6,
+        "depth": 0.75,
+        "time": 0.2,
+        "seriousness": 0.8,
+        "intimacy": 0.4,
+        "tension": 0.8,
+        "situational": 0.4,
+        "externalFocus": 0.05
+      }
+    },
+    {
+      "id": "e0a1ca05-6bd6-47f6-8773-6515f9577a8d",
+      "contentID": "7cdd858a-c0be-4f89-806d-f67d9fa7ebcd",
+      "revision": 1,
+      "text": "Her özel günde çiçek alması.",
+      "type": "thisOrThat",
+      "options": null,
+      "categories": [
+        "prenses"
+      ],
+      "dna": {
+        "emotion": 0.45,
+        "depth": 0.35,
+        "time": 0.5,
+        "seriousness": 0.45,
+        "intimacy": 0.48,
+        "tension": 0.45,
+        "situational": 0.85,
+        "externalFocus": 0.2
+      },
+      "templateTitle": "Prenses Muamelesi mi, Olması Gereken mi?"
     }
   ]
 }
